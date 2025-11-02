@@ -1,16 +1,15 @@
 {
   "name": "nodejs-rest-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Node.js REST API project for CI/CD pipeline demo",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "echo \"No tests to run\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Shrikanth K",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.18.2"
   }
 }
